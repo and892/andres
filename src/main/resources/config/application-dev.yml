@@ -13,7 +13,7 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 #Name: Andres Sergio Andres Gutierrez.
-#nn:localhost:8761    ;;   http://192.168.99.100:32768/
+#nn:localhost:8761    ;;   http://192.168.99.100:32768/ Datosficticios: faker
 
 logging:
   level:
@@ -67,7 +67,7 @@ spring:
       hibernate.cache.hazelcast.use_lite_member: true
   liquibase:
     # Remove 'faker' if you do not want the sample data to be loaded automatically
-    contexts: dev, faker
+    contexts: dev,
   mail:
     host: localhost
     port: 25
