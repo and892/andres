@@ -14,6 +14,7 @@
 # ===================================================================
 #Name: Andres Sergio Andres Gutierrez.
 #nn:localhost:8761    ;;   http://192.168.99.100:32768/ Datosficticios: faker
+#url: /localhost:5432
 
 logging:
   level:
@@ -46,7 +47,7 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/gatewaystore
+    url: jdbc:postgresql://192.168.99.100:32768/gatewaystore
     username: postgres
     password: 12345
     hikari:
