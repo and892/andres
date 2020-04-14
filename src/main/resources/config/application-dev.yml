@@ -35,7 +35,8 @@ spring:
     include:
       - swagger
       # Uncomment to activate TLS for the dev profile
-      #- tls
+      #- tlsgit status nn
+
   devtools:
     restart:
       enabled: true
