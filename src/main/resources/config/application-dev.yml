@@ -14,7 +14,7 @@
 # ===================================================================
 #Name: Andres Sergio Andres Gutierrez.
 #nn:localhost:8761    ;;   http://192.168.99.100:32768/ Datosficticios: faker
-#url: /localhost:5432
+#url: /localhost:5432  5432
 
 logging:
   level:
@@ -27,7 +27,7 @@ eureka:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://admin:${jhipster.registry.password}@/localhost:5432/eureka/
+      defaultZone: http://admin:${jhipster.registry.password}@/localhost:8084/eureka/
 
 spring:
   profiles:
